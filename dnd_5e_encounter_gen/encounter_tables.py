@@ -1,4 +1,5 @@
 __author__ = 'Zachary Hill'
+__moded by__ = 'Richard Mraz'
 
 ########################################################################################################################
 # Encounter Table
@@ -20,3 +21,8 @@ xp_difficulties = {
 # List of each monster type which are grouped in the monster.py dictionary.
 monster_types_list = ['all', 'aberration', 'beast', 'celestial', 'construct', 'dragon', 'elemental',
                       'fey', 'fiend', 'giant', 'humanoid', 'monstrosity', 'ooze', 'plant', 'undead']
+
+########################################################################################################################
+# Encounter Location 
+# List of each location type which are showing in the DMG, Xanathar's Guide to Everything and Campaign Books.
+location_types_list = ['all', 'dungeon',  'forest', 'mountains', 'swamp', 'underdark', 'underwater', 'urban']
